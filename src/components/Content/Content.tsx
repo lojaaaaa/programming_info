@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Select from 'react-select';
 import style from './content.module.scss'
 import { languagesOptions, languagesDetails } from '../../shared/data';
-import Info from '../info/info';
+import Info from '../info/Info';
 
 
 const Content = () => {

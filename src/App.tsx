@@ -1,5 +1,5 @@
-import Container from "./components/container/container"
-import Content from "./components/content/content"
+import Container from "./components/container/Container"
+import Content from "./components/content/Content"
 
 
 const App = () => {
