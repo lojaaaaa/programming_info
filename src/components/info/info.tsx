@@ -6,7 +6,7 @@ interface InfoProps {
   selectedLanguage: any;
 }
 
-export const Info = ({ selectedLanguage }: InfoProps) => {
+const Info = ({ selectedLanguage }: InfoProps) => {
 
   const [isShowCode, setIsShowCode] = useState(false);
 
@@ -88,3 +88,5 @@ export const Info = ({ selectedLanguage }: InfoProps) => {
     </div>
   )
 }
+
+export default Info

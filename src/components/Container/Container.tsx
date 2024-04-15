@@ -5,9 +5,10 @@ interface ContainerProps {
   children: React.ReactNode;
 }
 
-export const Container = ({ children } : ContainerProps) => (
+const Container = ({ children } : ContainerProps) => (
   <div className={style.container}>
     {children}
   </div>
 )
 
+export default Container

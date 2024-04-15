@@ -3,9 +3,9 @@ import Select from 'react-select';
 import { languagesOptions, languagesDetails } from 'src/shared/data';
 
 import style from './content.module.scss'
-import { Info } from 'src/components/info/info';
+import Info from 'src/components/info/info';
 
-export const Content = () => {
+const Content = () => {
 
   const [selectValue, setSelectValue] = useState(null);
 
@@ -41,3 +41,5 @@ export const Content = () => {
     </div>
   )
 }
+
+export default Content
