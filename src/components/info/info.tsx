@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react'
 import style from './info.module.scss'
-import { Highlighter } from 'src/components/highlighter/highlighter.tsx';
+import { Highlighter } from '../highlighter/highlighter';
 
 interface InfoProps {
   selectedLanguage: any;

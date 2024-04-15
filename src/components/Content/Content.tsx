@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import Select from 'react-select';
-import { languagesOptions, languagesDetails } from 'src/shared/data';
-
 import style from './content.module.scss'
-import Info from 'src/components/info/info.tsx';
+import { languagesOptions, languagesDetails } from '../../shared/data';
+import Info from '../info/info';
+
 
 const Content = () => {
 
