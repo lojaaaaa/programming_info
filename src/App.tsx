@@ -1,5 +1,5 @@
-import Container from 'src/components/container/container';
-import Content from 'src/components/content/content';
+import Container from 'src/components/container/container.tsx';
+import Content from 'src/components/content/content.tsx';
 
 const App = () => {
   return (
