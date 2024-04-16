@@ -1,12 +1,12 @@
-import { Container } from "src/components/container/Container"
-import { Content } from "src/components/content/Content"
+import { Container } from "src/components/Container/Container"
+import { Content } from "src/components/Content/Content"
 
 export const App = () => {
   return (
-    <>
+    <div>
       <Container>
         <Content />
       </Container>
-    </>
+    </div>
   )
 }
