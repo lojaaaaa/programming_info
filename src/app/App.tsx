@@ -1,8 +1,7 @@
-import Container from "../components/container/Container"
-import Content from "../components/content/Content"
+import { Container } from "src/components/container/Container"
+import { Content } from "src/components/content/Content"
 
-
-const App = () => {
+export const App = () => {
   return (
     <>
       <Container>
@@ -11,5 +10,3 @@ const App = () => {
     </>
   )
 }
-
-export default App

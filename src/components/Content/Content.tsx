@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import Select from 'react-select';
 import style from './content.module.scss'
-import { languagesOptions, languagesDetails } from '../../shared/data';
-import Info from '../info/Info';
+import { languagesOptions, languagesDetails } from 'src/shared/data';
+import { Info } from 'src/components/info/Info';
 
 
-const Content = () => {
+export const Content = () => {
 
   const [selectValue, setSelectValue] = useState(null);
 
@@ -41,5 +41,3 @@ const Content = () => {
     </div>
   )
 }
-
-export default Content

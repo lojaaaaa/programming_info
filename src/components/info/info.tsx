@@ -1,12 +1,12 @@
 import React, { useState, useEffect} from 'react'
 import style from './info.module.scss'
-import { Highlighter } from '../highlighter/Highlighter';
+import { Highlighter } from 'src/components/highlighter/Highlighter';
 
 interface InfoProps {
   selectedLanguage: any;
 }
 
-const Info = ({ selectedLanguage }: InfoProps) => {
+export const Info = ({ selectedLanguage }: InfoProps) => {
 
   const [isShowCode, setIsShowCode] = useState(false);
 
@@ -88,5 +88,3 @@ const Info = ({ selectedLanguage }: InfoProps) => {
     </div>
   )
 }
-
-export default Info
